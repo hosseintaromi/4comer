@@ -11,7 +11,11 @@ module.exports = {
               'secondary': '#083870',
               'secondary': '#083870',
               'info': '#0AE5CA',
+              'blue': '#2280EF',
               'stone-550': 'rgb(120 120 120)',
+            },
+            spacing: {
+              '528': '33rem',
             },
         },
     },
