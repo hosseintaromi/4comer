@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>4commer</title>
     <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -12,11 +12,11 @@
 
 <body>
     <header>
-        <div class="w-full max-w-screen-2xl mx-auto py-6 px-7 shadow-3xl">
-            <div class="flex flex-wrap justify-between items-center">
+        <div class="w-full py-3 px-6 md:py-6 md:px-7 shadow-3xl">
+            <div class="flex flex-wrap justify-between items-center w-full max-w-screen-2xl mx-auto min-h-16">
                 <div class="flex items-center">
                     <img src="images/logo.svg">
-                    <div class="flex ml-6">
+                    <div class="hidden md:flex md:ml-6">
                         <a class="flex items-center h-10 mx-6 font-bold border-b-2 border-solid border-primary text-primary"
                             href="#">Home</a>
                         <a class="flex items-center h-10 mx-6 font-bold border-b-2 border-solid border-transparent"
@@ -29,7 +29,7 @@
                             href="#">Contact</a>
                     </div>
                 </div>
-                <div class="flex items-center">
+                <div class="hidden md:flex md:items-center">
                     <div class="flex items-center cursor-pointer">
                         <img src="images/flag.svg">
                         <img src="images/chevron.svg">
@@ -39,13 +39,20 @@
                     <a class="flex items-center h-10 font-medium bg-primary text-white rounded-2xl px-4 py-2"
                         href="#">Sign up</a>
                 </div>
+                <div class="md:hidden cursor-pointer">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="13" width="20" height="2" rx="1" fill="#ABABAB" />
+                        <rect x="10" y="19" width="20" height="2" rx="1" fill="#ABABAB" />
+                        <rect x="10" y="25" width="20" height="2" rx="1" fill="#ABABAB" />
+                    </svg>
+                </div>
             </div>
         </div>
     </header>
     <section>
-        <div class="w-full mx-auto pl-32">
-            <div class="flex items-center">
-                <div class="flex-auto">
+        <div class="w-full mx-auto md:pl-32">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <div class="md:flex-auto order-2 md:order-none">
                     <div class="text-primary font-bold text-2xl">Best Experience around the world</div>
                     <div class="text-secondary text-5xl leading-55 font-YesevaOne">we are with you From the moment you
                         reach your
@@ -60,16 +67,16 @@
                             href="#">Are you a mentor?</a>
                     </div>
                 </div>
-                <div class="min-w-528 max-w-4xl">
+                <div class="md:min-w-528 max-w-4xl order-1 md:order-none">
                     <img src="images/pic1.png">
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="w-full mx-auto mt-20 pl-32 pr-28">
-            <div class="flex items-center">
-                <div class="flex-auto">
+        <div class="w-full mx-auto mt-20 md:pl-32 md:pr-28">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <div class="md:flex-auto order-2 md:order-none">
                     <div class="text-stone-550 text-lg font-bold">Prepare for your migration in 3 easy steps</div>
                     <div class="flex items-center my-4 text-info">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,19 +100,19 @@
                             href="#">View More</a>
                     </div>
                 </div>
-                <div class="min-w-528 max-w-4xl">
+                <div class="md:min-w-528 max-w-4xl order-1 md:order-none">
                     <img src="images/pic2.png">
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="w-full mx-auto mt-20 pl-20 pr-32">
-            <div class="flex items-center">
-                <div class="min-w-528 max-w-4xl">
+        <div class="w-full mx-auto mt-20 md:pl-20 md:pr-32">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <div class="md:min-w-528 md:max-w-4xl">
                     <img src="images/pic3.png">
                 </div>
-                <div class="flex-auto">
+                <div class="md:flex-auto">
                     <div class="text-stone-550 text-lg font-bold">Prepare for your migration in 3 easy steps</div>
                     <div class="flex items-center my-4 text-primary ">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,9 +139,9 @@
         </div>
     </section>
     <section>
-        <div class="w-full mx-auto mt-20 pl-32 pr-28">
-            <div class="flex items-center">
-                <div class="flex-auto">
+        <div class="w-full mx-auto mt-20 md:pl-32 md:pr-28">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <div class="md:flex-auto order-2 md:order-none">
                     <div class="text-stone-550 text-lg font-bold">Prepare for your migration in 3 easy steps</div>
                     <div class="flex items-center my-4 text-blue">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,19 +162,19 @@
                             href="#">View More</a>
                     </div>
                 </div>
-                <div class="min-w-528 max-w-4xl">
+                <div class="md:min-w-528 md:max-w-4xl order-1 md:order-none">
                     <img src="images/pic4.png">
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="w-full mx-auto mt-20 pr-32">
-            <div class="flex items-center">
-                <div class="min-w-528 max-w-4xl">
+        <div class="w-full mx-auto mt-20 md:pr-32">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <div class="md:min-w-528 md:max-w-4xl">
                     <img src="images/pic5.png">
                 </div>
-                <div class="flex-auto">
+                <div class="md:flex-auto">
                     <div class="text-stone-550 text-lg font-bold">Are you a mentor?</div>
                     <div class="text-secondary text-5xl leading-55 font-YesevaOne">Help the immigrants & share your
                         experiences with
@@ -231,9 +238,9 @@
         </div>
     </section>
     <section>
-        <div class="w-full mx-auto mt-20 pl-32">
-            <div class="flex items-center">
-                <div class="flex-auto">
+        <div class="w-full mx-auto mt-20 md:pl-32">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <div class="md:flex-auto order-2 md:order-none">
                     <div class="text-stone-550 text-lg font-bold">Are you a Service provider?</div>
                     <div class="text-secondary text-5xl leading-55 font-YesevaOne">offer your services</div>
                     <div class="text-stone-550 mt-4">Built Wicket longer admire do barton vanity itself do in it.
@@ -291,7 +298,7 @@
                             href="#">Are you a service provider?</a>
                     </div>
                 </div>
-                <div class="min-w-528 max-w-4xl">
+                <div class="md:min-w-528 md:max-w-4xl order-1 md:order-none">
                     <img src="images/pic6.png">
                 </div>
             </div>
@@ -482,12 +489,12 @@
     <section>
         <div class="w-full mx-auto mt-20 bg-comments">
             <div class="max-w-921 w-full mx-auto">
-                <div class="flex items-center justify-between h-492">
-                    <div class="max-w-p50 h-full flex  justify-center flex-col">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between md:h-492">
+                    <div class="md:max-w-p50 h-full flex justify-center flex-col">
                         <div class="text-stone-550 mb-4">TESTIMONIALS</div>
                         <div class="text-secondary mb-4 text-5xl leading-55">What people say about Us.</div>
                     </div>
-                    <div class="max-w-p50 swiper swiper-comments h-full flex items-center">
+                    <div class="md:max-w-p50 swiper swiper-comments md:h-full flex items-center">
                         <div class="swiper-button-next text-stone-450">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -537,7 +544,7 @@
     </section>
     <div class="w-full max-w-1100 mx-auto mt-20">
         <div class="w-full rounded-2xl bg-indigo-350 p-20">
-            <div class="flex items-center flex-wrap">
+            <div class="flex flex-col md:flex-row md:items-center md:flex-wrap">
                 <div class="w-56">
                     <img class="block w-full" src="images/bell.png">
                 </div>
@@ -565,7 +572,7 @@
     </div>
     <section>
         <div class="w-full border-t-2 border-solid border-stone-25 p-12 mt-20">
-            <div class="grid grid-cols-2 gap-8">
+            <div class="grid md:grid-cols-2 gap-8">
                 <div>
                     <div class="text-5xl text-primary font-YesevaOne leading-55 mb-4">Best Experience around the world
                     </div>
@@ -685,16 +692,16 @@
             </div>
         </div>
         <div class="w-full border-t-2 border-solid border-stone-25 px-12 pb-8 pt-8 mt-8">
-            <div class="flex items-center justify-between">
-                <div class="flex">
+            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                <div class="flex order-2 md:order-none">
                     <a class="font-bold text-sm text-stone-550 mr-6" href="#">Privacy Policy</a>
                     <a class="font-bold text-sm text-stone-550 mr-6" href="#">Terms of Use</a>
                     <a class="font-bold text-sm text-stone-550 mr-6" href="#">Sales and Refunds</a>
                     <a class="font-bold text-sm text-stone-550 mr-6" href="#">Legal</a>
                     <a class="font-bold text-sm text-stone-550 mr-6" href="#">Site Map</a>
                 </div>
-                <div>
-                    <a class="flex items-center h-10 font-medium bg-primary-light text-primary rounded-2xl px-4 py-2 mx-4"
+                <div class="order-1 md:order-none">
+                    <a class="flex items-center justify-center h-10 font-medium bg-primary-light text-primary rounded-2xl px-4 py-2 mx-4"
                         href="#">Contact Us</a>
                 </div>
             </div>
