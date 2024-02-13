@@ -14,9 +14,6 @@ module.exports = {
               'blue': '#2280EF',
               'stone-550': 'rgb(120 120 120)',
             },
-            spacing: {
-              '528': '33rem',
-            },
         },
     },
     plugins: [],
