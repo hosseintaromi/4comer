@@ -13,6 +13,19 @@
 body {
     font-family: Mulish, system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
+.bg-selling,
+.bg-comments {
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+.bg-selling {
+    background-image: url(images/bg-selling.png);
+    background-position: center center;
+}
+.bg-comments {
+    background-image: url(images/bg-comments.png);
+    background-position: left bottom;
+}
 .swiper-clients {
     padding: 2px 0;
 }
@@ -20,12 +33,36 @@ body {
     width: 218px;
     background-color: #fff;
 }
-.bg-selling {
-    background-color: transparent;
-    background-image: url(images/bg-selling.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-}
 .swiper-selling {
     padding: 2px;
+}
+.swiper-comments {
+    --swiper-navigation-sides-offset: -40px;
+    width: 100%;
+}
+.swiper-comments .swiper-slide {
+    height: 250px;
+    overflow: visible;
+}
+.swiper-comments .swiper-slide.swiper-slide-next {
+    margin-top: 100px;
+}
+.swiper-comments .swiper-button-next,
+.swiper-comments .swiper-button-prev {
+    top: auto;
+}
+.swiper-comments .swiper-button-next::after,
+.swiper-comments .swiper-button-prev::after {
+    content: none;
+}
+.swiper-comments .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
+    bottom: 10px;
+}
+.swiper-comments .swiper-button-next {
+    bottom: 60px;
+}
+.swiper-comments.swiper-3d .swiper-slide-shadow {
+    display: none;
 }
