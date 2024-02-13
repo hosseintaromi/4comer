@@ -12,9 +12,9 @@ var swiper = new Swiper(".swiper-selling", {
       spaceBetween: 24,
       grabCursor: true,
       slidesPerView: 3,
-      // loop: true,
-      // autoplay: {
-      //   delay: 2500,
-      //   disableOnInteraction: false,
-      // },
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 });
