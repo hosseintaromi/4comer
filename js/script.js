@@ -16,8 +16,9 @@ var swiperClients = new Swiper(".swiper-clients", {
 var swiperSelling = new Swiper(".swiper-selling", {
       spaceBetween: 10,
       grabCursor: true,
-      slidesPerView: 'auto',
+      slidesPerView: 1.5,
       centeredSlides: true,
+      initalSlide: 2,
       loop: true,
       // autoplay: {
       //       delay: 3000,
