@@ -39,7 +39,7 @@ module.exports = {
               'YesevaOne': ['"YesevaOne"'],
             },
             fontSize: {
-              'cm': '1.375rem'
+              'cm': '1.625rem'
             },
             lineHeight: {
               '55': '3.4375rem',
