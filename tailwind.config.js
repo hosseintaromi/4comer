@@ -19,7 +19,7 @@ module.exports = {
               'stone-450': 'rgb(60 60 60)',
               'stone-550': 'rgb(120 120 120)',
               'neutral-950': 'rgb(20 20 20)',
-              'indigo-350': 'rgb(223 237 253)',
+              'indigo-350': 'rgb(249 251 255)',
               'rouged-light': '#FE7052',
               'rouged-dark': '#FB4073',
             },
@@ -27,6 +27,7 @@ module.exports = {
               '29': '7.75rem',
               '492': '30.75rem',
               '528': '33rem',
+              '523': '32.6875rem',
               '921': '57.5625rem',
               'p50': '50%',
               'p70': '70%',
@@ -41,6 +42,9 @@ module.exports = {
             flex: {
               '56': '1 1 14rem',
               '28': '1 1 7rem',
+            },
+            borderRadius: {
+              'extra': '116px'
             }
         },
     },

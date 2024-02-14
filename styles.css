@@ -19,8 +19,9 @@ body {
     background-repeat: no-repeat;
 }
 .bg-selling {
-    background-image: url(images/bg-selling.png);
-    background-position: center center;
+    background-image: url(images/bg-selling.svg);
+    background-position: bottom right;
+    background-size: contain;
 }
 .bg-comments {
     background-image: url(images/bg-comments.png);
