@@ -29,6 +29,7 @@ module.exports = {
               '492': '30.75rem',
               '528': '33rem',
               '523': '32.6875rem',
+              '654': '40.875rem',
               '921': '57.5625rem',
               'p50': '50%',
               'p70': '70%',
@@ -36,6 +37,9 @@ module.exports = {
             },
             fontFamily: {
               'YesevaOne': ['"YesevaOne"'],
+            },
+            fontSize: {
+              'cm': '1.375rem'
             },
             lineHeight: {
               '55': '3.4375rem',
