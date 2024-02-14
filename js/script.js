@@ -2,11 +2,11 @@ var swiperClients = new Swiper(".swiper-clients", {
       spaceBetween: 10,
       grabCursor: true,
       slidesPerView: "auto",
-      loop: true,
-      autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-      },
+      // loop: true,
+      // autoplay: {
+      //       delay: 2500,
+      //       disableOnInteraction: false,
+      // },
       breakpoints: {
             768: {
                   spaceBetweenSlides: 30
@@ -19,10 +19,10 @@ var swiperSelling = new Swiper(".swiper-selling", {
       slidesPerView: 'auto',
       centeredSlides: true,
       loop: true,
-      autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-      },
+      // autoplay: {
+      //       delay: 3000,
+      //       disableOnInteraction: false,
+      // },
       breakpoints: {
             768: {
                   slidesPerView: 3,
