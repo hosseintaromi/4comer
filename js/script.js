@@ -19,7 +19,7 @@ var swiperSelling = new Swiper(".swiper-selling", {
       slidesPerView: 1.5,
       centeredSlides: true,
       initalSlide: 2,
-      loop: true,
+      // loop: true,
       // autoplay: {
       //       delay: 3000,
       //       disableOnInteraction: false,
@@ -32,6 +32,7 @@ var swiperSelling = new Swiper(".swiper-selling", {
             }
       }
 });
+swiperSelling.slideTo(1)
 var swiperComments = new Swiper(".swiper-comments", {
       effect: "cards",
       slidesPerView: "auto",
