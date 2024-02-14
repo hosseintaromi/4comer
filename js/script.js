@@ -1,5 +1,5 @@
 var swiperClients = new Swiper(".swiper-clients", {
-      spaceBetween: 30,
+      spaceBetween: 10,
       grabCursor: true,
       slidesPerView: "auto",
       loop: true,
@@ -7,27 +7,40 @@ var swiperClients = new Swiper(".swiper-clients", {
             delay: 2500,
             disableOnInteraction: false,
       },
+      breakpoints: {
+            768: {
+                  spaceBetweenSlides: 30
+            }
+      }
 });
 var swiperSelling = new Swiper(".swiper-selling", {
-      spaceBetween: 24,
+      spaceBetween: 10,
       grabCursor: true,
-      slidesPerView: 3,
+      slidesPerView: 'auto',
+      centeredSlides: true,
       loop: true,
       autoplay: {
             delay: 3000,
             disableOnInteraction: false,
       },
+      breakpoints: {
+            768: {
+                  slidesPerView: 3,
+                  spaceBetweenSlides: 24,
+                  centeredSlides: false,
+            }
+      }
 });
 var swiperComments = new Swiper(".swiper-comments", {
       effect: "cards",
       slidesPerView: "auto",
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
       },
       cardsEffect: {
-        perSlideOffset: 15, // Space between cards in px
-        perSlideRotate: 0, // Rotation of cards in degrees
+            perSlideOffset: 15, // Space between cards in px
+            perSlideRotate: 0, // Rotation of cards in degrees
       },
       loop: true,
       // autoplay: {

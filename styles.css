@@ -18,28 +18,45 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
 }
-.bg-selling {
-    background-image: url(images/bg-selling.svg);
-    background-position: bottom right;
-    background-size: contain;
+@media (min-width: 768px) {
+    .bg-selling {
+        background-image: url(images/bg-selling.svg);
+        background-position: bottom right;
+        background-size: contain;
+    }
 }
-.bg-comments {
-    background-image: url(images/bg-comments.png);
-    background-position: left bottom;
+@media (min-width: 768px) {
+    .bg-comments {
+        background-image: url(images/bg-comments.png);
+        background-position: left bottom;
+    }
 }
 .swiper-clients {
     padding: 2px 0;
 }
 .swiper-clients .swiper-slide {
-    width: 218px;
+    width: 112px;
     background-color: #fff;
+}
+@media (min-width: 768px) {
+    .swiper-clients .swiper-slide {
+        width: 218px;
+    }
 }
 .swiper-selling {
     padding: 2px;
 }
+.swiper-selling .swiper-slide {
+    width: 284px;
+}
 .swiper-comments {
-    --swiper-navigation-sides-offset: -40px;
+    --swiper-navigation-sides-offset: 0px;
     width: 100%;
+}
+@media (min-width: 768px) {
+    .swiper-comments {
+        --swiper-navigation-sides-offset: -40px;
+    }
 }
 .swiper-comments .swiper-slide {
     height: 250px;
