@@ -1368,6 +1368,10 @@ video {
     gap: 1rem;
   }
 
+  .md\:overflow-visible {
+    overflow: visible;
+  }
+
   .md\:rounded-tl-extra {
     border-top-left-radius: 116px;
   }
