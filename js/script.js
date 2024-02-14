@@ -18,8 +18,6 @@ var swiperSelling = new Swiper(".swiper-selling", {
       grabCursor: true,
       slidesPerView: 1.5,
       centeredSlides: true,
-      initalSlide: 2,
-      // loop: true,
       // autoplay: {
       //       delay: 3000,
       //       disableOnInteraction: false,
